@@ -1,0 +1,36 @@
+:root {
+  --white-color: #ffffff;
+  --yellow-color: #ffca42;
+  --blue-color: #b4c7e7;
+  --black-color: #141414;
+  --gray-color: #969aa0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+body {
+  font-family: Inter, sans-serif;
+  background-color: var(--white-color);
+  color: var(--gray-color);
+}
