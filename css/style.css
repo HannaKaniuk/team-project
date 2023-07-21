@@ -52,11 +52,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  outline: solid 1px red;
 }
 
 .header-container {
   display: flex;
   align-items: center;
+
 }
 
 .header-soc-list {
@@ -270,9 +272,9 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -4px;
   width: 152px;
-  height: 2px;
+  height: 1px;
   background-color:  var(--white-color);
 }
 
@@ -318,7 +320,127 @@ line-height: 1.6;
   width: 16px;
   height: 16px;
   left: 0;
-  top: 6px;
+  top: 20%;
+  transform: translateY(-50%);
   border-radius: 50%;
   background-color: var(--yellow-color);
+}
+
+/**------------BOOK----------------*/
+
+.book-section-title {
+  position: relative;
+  margin: 110px auto 0 auto;
+  padding: 20px 0 23px;
+  max-width: 370px;
+  text-align: center;
+  color: var(--background-color);
+  font-family: "Cardo", serif;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.book-section-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: var(--yellow-color);
+}
+
+.book-section-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-section-item {
+  display: flex;
+  padding: 60px 10px 60px 10px;
+}
+
+.book-section-description {
+  margin-left: 30px;
+}
+
+.book-section-description {
+  display: flex;
+  width: 315px;
+  height: 349px;
+  padding-top: 5px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.book-section-subtitle {
+  color: var(--background-color);
+  font-family: "Cardo", serif;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0.01;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 8px;
+
+}
+.book-section-price {
+  min-width: 129px;
+  color: var(--yellow-color);
+  font-size: 21px;
+  line-height: 1.6;
+}
+.book-section-text {
+  width: 287px;
+  height: 86px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 17px;
+}
+
+.book-section-type {
+  position: relative;
+  color: var(--background-color);
+  font-family: "Cardo", serif;
+  font-size: 24px;
+  line-height: 1.2;
+  padding-left: 26px;
+  margin-top: 13px;
+}
+
+.book-section-type::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: var(--yellow-color);
+}
+
+.book-section-btn {
+  min-width: 206px;
+  height: 66px;
+  border: 2px solid var(--yellow-color);
+  background-color: transparent;
+  color: var(--background-color);
+  font-family: "Cardo", serif;
+  font-size: 19px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 26px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.book-section-btn:hover,
+.book-section-btn:focus {
+  border-color: var(--actions);
 }
