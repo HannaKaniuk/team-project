@@ -52,7 +52,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: solid 1px red;
+  /* outline: solid 1px red; */
 }
 
 .header-container {
