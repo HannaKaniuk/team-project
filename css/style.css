@@ -362,6 +362,7 @@ line-height: 1.6;
 .book-section-item {
   display: flex;
   padding: 60px 10px 60px 10px;
+  margin-bottom: 120px;
 }
 
 .book-section-description {
@@ -442,5 +443,11 @@ line-height: 1.6;
 
 .book-section-btn:hover,
 .book-section-btn:focus {
-  border-color: var(--actions);
+  border-color: var(--background-color);
 }
+
+/**----------------AUTHOR---------------------*/
+
+.author-container {
+  display: flex;
+} 
