@@ -700,7 +700,7 @@ address {
 /* ------------LEARN-------- */
 
 .learn-section{
-  padding: 126px 0 140px;
+  padding: 126px 0 140px 0;
   background-color: var(--white-color);
 }
 
@@ -800,19 +800,20 @@ address {
   background-color: #F4F8FF;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
+
 .knowledge-title {
-    color: var(--background-color);
-    text-align: center;
-    font-family: Cardo;
-    font-size: 42px;
-    font-weight: 400;
-    line-height: 1.2;
-    text-transform: capitalize;
-    position: relative;
-    margin-bottom: 96px;
+  color: var(--background-color);
+  text-align: center;
+  font-family: Cardo;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 96px;
 }
 
 .knowledge-title::after{
@@ -882,7 +883,6 @@ address {
   background-color: var(--yellow-color);
 }
 
-
 .knowledge-pages-text {
   color: #1B3764;
   font-family: Cardo;
@@ -898,10 +898,12 @@ address {
   font-style: normal;
   line-height: 1.59;
 }
+
 .knowledge-length-item {
   position: relative;
   margin-left: 20px; 
 }
+
 .knowledge-length-text {
   color: #1B3764;
   font-family: Cardo;
