@@ -690,6 +690,11 @@ address {
   border: 2px solid var(--yellow-color);
 }
 
+.book-copy-btn:hover, .book-copy-btn:focus{
+  color: var(--yellow-color);
+  border-color: var(--white-color);
+}
+
 
 
 /* ------------LEARN-------- */
@@ -784,4 +789,182 @@ address {
   height: 632px;
   right: 40px;
   bottom: 40px;
+}
+
+
+
+/* --------KNOWLEDGE---------- */
+
+.knowledge-section {
+  padding: 116px 0 130px;
+  background-color: #F4F8FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.knowledge-title {
+    color: var(--background-color);
+    text-align: center;
+    font-family: Cardo;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 96px;
+}
+
+.knowledge-title::after{
+  content: "";
+  position: absolute;
+  bottom: -23px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background-color: var(--yellow-color);
+}
+
+
+.knowledge-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 30px;
+  margin-bottom: 70px;
+}
+.knowledge-item {
+  background-color: var(--white-color);
+  width: calc((100% - 30px) / 2);
+  padding-top: 42px;
+  padding-left: 40px;
+  padding-bottom: 44px;
+
+}
+.knowledge-subtitle {
+  color: var(--background-color);
+  font-family: Cardo;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2; 
+  margin-bottom: 21px;
+}
+.knowledge-text {
+  color: #969AA0;
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.7; 
+  margin-bottom: 12px;
+  max-width: 536px;
+}
+.knowledge-size-list {
+  display: flex;
+}
+
+.knowledge-pages-item {
+  position: relative;
+  margin-left: 20px;  
+  margin-right: 45px;
+}
+
+.knowledge-pages-item::before,
+.knowledge-length-item::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: var(--yellow-color);
+}
+
+
+.knowledge-pages-text {
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+.knowledge-pages-text span{
+  color: #969AA0;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 1.59;
+}
+.knowledge-length-item {
+  position: relative;
+  margin-left: 20px; 
+}
+.knowledge-length-text {
+  color: #1B3764;
+  font-family: Cardo;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 1.4;
+}
+
+.knowledge-length-text span{
+  color: #969AA0;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  line-height: 1.59;
+}
+
+.knowledge-btn {
+  max-width: 429px;
+  height: 76px;
+  padding: 24px 92px 23px 92px;
+  color: var(--background-color);
+  background-color: var(--yellow-color);
+  text-align: center;
+  font-family: Cardo;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  border: none;
+  margin-bottom: 34px;
+}
+
+
+.knowledge-btn:hover, .knowledge-btn:focus{
+  background-color: var(--actions);
+  border: none;
+}
+
+.knowledge-btn-text-one{
+  color: var(--gray-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.58; 
+}
+
+.knowledge-btn-text-two {
+  color: var(--gray-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.58;
+}
+
+.knowledge-btn-text-two>a{
+  color: var(--background-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: 0.01em;
 }
