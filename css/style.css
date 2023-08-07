@@ -556,15 +556,14 @@ address {
   margin-bottom: 4px;
 }
 
-
 /* -----------------TRUSTED--------------- */
 
-.trusted-section{
+.trusted-section {
   background-color: var(--white-color);
   padding: 126px 70px;
 }
 
-.trusted-section-title{
+.trusted-section-title {
   position: relative;
   color: var(--background-color);
   text-align: center;
@@ -573,11 +572,10 @@ address {
   font-size: 42px;
   line-height: 1.2;
   text-transform: capitalize;
-  
 }
 
-.trusted-section-title::after{
-  content: "";
+.trusted-section-title::after {
+  content: '';
   position: absolute;
   bottom: -23px;
   left: 50%;
@@ -587,27 +585,26 @@ address {
   background-color: var(--yellow-color);
 }
 
-.trusted-section-list{
+.trusted-section-list {
   display: flex;
   margin-top: 76px;
   gap: 16px;
 }
 
-.trusted-section-item{
+.trusted-section-item {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.trusted-section-img{
+.trusted-section-img {
   display: block;
   margin-bottom: 22px;
   justify-content: center;
-
 }
 
-.trusted-section-subtitle{
+.trusted-section-subtitle {
   color: var(--background-color);
   text-align: center;
   font-family: Cardo;
@@ -617,7 +614,7 @@ address {
   margin-bottom: 16px;
 }
 
-.trusted-section-text{
+.trusted-section-text {
   color: var(--gray-color);
   text-align: center;
   font-family: Inter;
@@ -627,16 +624,14 @@ address {
   max-width: 304px;
 }
 
-
-
 /* ---------BOOK-COPY---------- */
 
-.book-copy-section{
+.book-copy-section {
   background-color: var(--background-color);
   padding: 70px;
 }
 
-.book-copy-container{
+.book-copy-container {
   display: flex;
   align-items: flex-start;
 }
@@ -645,8 +640,7 @@ address {
   margin-left: auto;
 }
 
-
-.book-copy-title{
+.book-copy-title {
   color: var(--white-color);
   font-family: Cardo;
   font-size: 45px;
@@ -657,7 +651,7 @@ address {
   margin-bottom: 27px;
 }
 
-.book-copy-title::after{
+.book-copy-title::after {
   display: block;
   content: '';
   margin-top: 23px;
@@ -666,7 +660,7 @@ address {
   background-color: var(--yellow-color);
 }
 
-.book-copy-text{
+.book-copy-text {
   max-width: 539px;
   color: var(--blue-color);
   font-family: Inter;
@@ -676,11 +670,11 @@ address {
   margin-bottom: 27px;
 }
 
-.book-copy-btn{
+.book-copy-btn {
   max-width: 220px;
   padding: 19px 52px 18px 52px;
   height: 66px;
-  color: #FFF;
+  color: #fff;
   font-family: Cardo;
   font-size: 19px;
   font-weight: 400;
@@ -690,27 +684,26 @@ address {
   border: 2px solid var(--yellow-color);
 }
 
-.book-copy-btn:hover, .book-copy-btn:focus{
+.book-copy-btn:hover,
+.book-copy-btn:focus {
   color: var(--yellow-color);
   border-color: var(--white-color);
 }
 
-
-
 /* ------------LEARN-------- */
 
-.learn-section{
+.learn-section {
   padding: 126px 0 140px 0;
   background-color: var(--white-color);
 }
 
-.item-box{
+.item-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.learn-section-title{
+.learn-section-title {
   position: relative;
   color: var(--background-color);
   text-align: center;
@@ -722,8 +715,8 @@ address {
   margin-bottom: 127px;
 }
 
-.learn-section-title::after{
-  content: "";
+.learn-section-title::after {
+  content: '';
   position: absolute;
   bottom: -23px;
   left: 50%;
@@ -733,7 +726,7 @@ address {
   background-color: var(--yellow-color);
 }
 
-.learn-section-list{
+.learn-section-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 30px;
@@ -746,7 +739,7 @@ address {
   max-width: 303px;
   height: 272px;
   padding: 30px 44px 61px 30px;
-  background: #F4F8FF;
+  background: #f4f8ff;
 }
 
 .learn-section-item span {
@@ -766,7 +759,7 @@ address {
   margin-bottom: 30px;
 }
 
-.learn-section-text{
+.learn-section-text {
   color: var(--background-color);
   font-family: Cardo;
   font-size: 24px;
@@ -783,7 +776,7 @@ address {
   margin-top: 45px;
 }
 
-.learn-section-img{
+.learn-section-img {
   position: absolute;
   width: 535px;
   height: 632px;
@@ -791,18 +784,15 @@ address {
   bottom: 40px;
 }
 
-
-
 /* --------KNOWLEDGE---------- */
 
 .knowledge-section {
   padding: 116px 0 130px;
-  background-color: #F4F8FF;
+  background-color: #f4f8ff;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-
 
 .knowledge-title {
   color: var(--background-color);
@@ -816,8 +806,8 @@ address {
   margin-bottom: 96px;
 }
 
-.knowledge-title::after{
-  content: "";
+.knowledge-title::after {
+  content: '';
   position: absolute;
   bottom: -23px;
   left: 50%;
@@ -826,7 +816,6 @@ address {
   height: 3px;
   background-color: var(--yellow-color);
 }
-
 
 .knowledge-list {
   display: flex;
@@ -841,22 +830,21 @@ address {
   padding-top: 42px;
   padding-left: 40px;
   padding-bottom: 44px;
-
 }
 .knowledge-subtitle {
   color: var(--background-color);
   font-family: Cardo;
   font-size: 24px;
   font-weight: 400;
-  line-height: 1.2; 
+  line-height: 1.2;
   margin-bottom: 21px;
 }
 .knowledge-text {
-  color: #969AA0;
+  color: #969aa0;
   font-family: Inter;
   font-size: 19px;
   font-weight: 400;
-  line-height: 1.7; 
+  line-height: 1.7;
   margin-bottom: 12px;
   max-width: 536px;
 }
@@ -866,7 +854,7 @@ address {
 
 .knowledge-pages-item {
   position: relative;
-  margin-left: 20px;  
+  margin-left: 20px;
   margin-right: 45px;
 }
 
@@ -884,15 +872,15 @@ address {
 }
 
 .knowledge-pages-text {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 22px;
   font-style: normal;
   line-height: 1.4;
 }
 
-.knowledge-pages-text span{
-  color: #969AA0;
+.knowledge-pages-text span {
+  color: #969aa0;
   font-family: Inter;
   font-size: 17px;
   font-style: normal;
@@ -901,19 +889,19 @@ address {
 
 .knowledge-length-item {
   position: relative;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
 .knowledge-length-text {
-  color: #1B3764;
+  color: #1b3764;
   font-family: Cardo;
   font-size: 22px;
   font-style: normal;
   line-height: 1.4;
 }
 
-.knowledge-length-text span{
-  color: #969AA0;
+.knowledge-length-text span {
+  color: #969aa0;
   font-family: Inter;
   font-size: 17px;
   font-style: normal;
@@ -937,19 +925,19 @@ address {
   margin-bottom: 34px;
 }
 
-
-.knowledge-btn:hover, .knowledge-btn:focus{
+.knowledge-btn:hover,
+.knowledge-btn:focus {
   background-color: var(--actions);
   border: none;
 }
 
-.knowledge-btn-text-one{
+.knowledge-btn-text-one {
   color: var(--gray-color);
   text-align: center;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.58; 
+  line-height: 1.58;
 }
 
 .knowledge-btn-text-two {
@@ -961,7 +949,7 @@ address {
   line-height: 1.58;
 }
 
-.knowledge-btn-text-two>a{
+.knowledge-btn-text-two > a {
   color: var(--background-color);
   text-align: center;
   font-family: Inter;
@@ -969,4 +957,31 @@ address {
   font-weight: 400;
   line-height: 1.58;
   letter-spacing: 0.01em;
+}
+
+/** READERS */
+
+.readers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 130px 0 150px 0;
+}
+
+.readers-info {
+  flex-direction: column;
+}
+
+.readers-info-text {
+  width: 435px;
+}
+
+.readers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.readers-block-text {
+  width: 303px;
 }
